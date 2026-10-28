@@ -6,13 +6,11 @@ import { FaCommentAlt } from "react-icons/fa";
 import { FaImages } from "react-icons/fa";
 import { ImSpinner3 } from "react-icons/im";
 import toast from "react-hot-toast";
-import type { commentType } from "../../Type/CommentType";
 
 export default function CommentCreation({
   postId,
   queryKey,
 }: {
-  comment: commentType;
   postId: string;
   queryKey: string[];
 }) {

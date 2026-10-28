@@ -190,6 +190,7 @@ export default function Post({
 
         {/* comment creation */}
         <CommentCreation
+        
           postId={_id}
           queryKey={isPostDetails ? ["commentPost"] : ["SinglePost"]}
         />
